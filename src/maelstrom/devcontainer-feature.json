@@ -1,0 +1,10 @@
+{
+    "name": "Mealstrom",
+    "id": "maelstrom",
+    "version": "1.0.0",
+    "description": "Maelstrom and dependencies",
+    "options": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
