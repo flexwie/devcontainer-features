@@ -14,6 +14,7 @@ jobs:
       matrix:
         features:
           - maelstrom
+          - terraspace
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -34,6 +35,7 @@ jobs:
       matrix:
         features:
           - maelstrom
+          - terraspace
     steps:
       - uses: actions/checkout@v3
 
