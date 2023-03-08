@@ -1,15 +1,17 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "mads-hartmann.bash-ide-vscode"
-            ]
-        }
-    },
-    "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-    },
-    "remoteUser": "node",
-    "postCreateCommand": "npm install -g @devcontainers/cli"
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+  "customizations": {
+    "vscode": {
+      "extensions": ["mads-hartmann.bash-ide-vscode"]
+    }
+  },
+  "features": {
+    "docker-from-docker": {
+      "version": "latest",
+      "moby": true,
+      "dockerDashComposeVersion": "v1"
+    }
+  },
+  "remoteUser": "node",
+  "postCreateCommand": "npm install -g @devcontainers/cli"
 }
