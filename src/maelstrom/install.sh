@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get update -qq && \
-    apt-get install openjdk-17-jdk graphviz gnuplot curl wget -y -qq > /dev/null
+    apt-get install openjdk-17-jdk graphviz gnuplot curl wget bzip2 -y -qq > /dev/null
 
 dir=$(mktemp -d)
 echo "Downloading latest release to $dir"
