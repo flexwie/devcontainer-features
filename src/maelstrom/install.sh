@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo apt-get update -qq && \
-    sudo apt-get install openjdk-17-jdk graphviz gnuplot -y -qq > /dev/null
+apt-get update -qq && \
+    apt-get install openjdk-17-jdk graphviz gnuplot -y -qq > /dev/null
 
 dir=$(mktemp -d)
 echo "Downloading latest release to $dir"
@@ -16,11 +16,11 @@ pushd $dir
 
 tar -xf *.tar.bz2
 
-sudo mkdir -p /opt/maelstrom
+mkdir -p /opt/maelstrom
 
-sudo cp maelstrom/maelstrom /opt/maelstrom/maelstrom
-sudo cp -r maelstrom/* /opt/maelstrom
-sudo chmod +x /opt/maelstrom/maelstrom
+cp maelstrom/maelstrom /opt/maelstrom/maelstrom
+cp -r maelstrom/* /opt/maelstrom
+chmod +x /opt/maelstrom/maelstrom
 
 echo "PATH=/opt/maelstrom:$PATH" >> ~/.profile
 source ~/.profile
