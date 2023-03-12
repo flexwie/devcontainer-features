@@ -1,13 +1,13 @@
 
-# Mealstrom (maelstrom)
+# 1Password CLI (op)
 
-Maelstrom and dependencies
+1Password CLI
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/flexwie/devcontainer-features/maelstrom:1": {}
+    "ghcr.io/flexwie/devcontainer-features/op:1": {}
 }
 ```
 
@@ -21,4 +21,4 @@ Maelstrom and dependencies
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/flexwie/devcontainer-features/blob/main/src/maelstrom/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/flexwie/devcontainer-features/blob/main/src/op/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
