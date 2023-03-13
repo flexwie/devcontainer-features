@@ -24,8 +24,8 @@ cp maelstrom/maelstrom /opt/maelstrom/maelstrom
 cp -r maelstrom/* /opt/maelstrom
 chmod +x /opt/maelstrom/maelstrom
 
-echo "PATH=/opt/maelstrom:$PATH" >> ~/.profile
-source ~/.profile
+echo "PATH=/opt/maelstrom:$PATH" >> /etc/profile
+source /etc/profile
 
 popd
 rm -rf $dir
