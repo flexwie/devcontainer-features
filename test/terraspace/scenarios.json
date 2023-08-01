@@ -5,5 +5,11 @@
             "ghcr.io/devcontainers/features/ruby:1": {},
             "terraspace": {}
         }
+    },
+    "withoutDep": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "terraspace": {}
+        }
     }
 }
