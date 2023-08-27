@@ -15,6 +15,7 @@ jobs:
         features:
           - maelstrom
           - op
+          - pulumi
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -40,6 +41,7 @@ jobs:
           - maelstrom
           - terraspace
           - op
+          - pulumi
     steps:
       - uses: actions/checkout@v3
 
