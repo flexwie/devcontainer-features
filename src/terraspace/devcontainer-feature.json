@@ -4,8 +4,8 @@
     "version": "1.0.0",
     "description": "Terraspace wrapper for terraform projects",
     "options": {},
-    "dependsOn": {
-        "ghcr.io/devcontainers/features/common-utils": {},
-        "ghcr.io/devcontainers/features/ruby:1": {}
-    }
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/ruby:1"
+    ]
 }
