@@ -1,0 +1,10 @@
+{
+    "name": "Pulumi",
+    "id": "pulumi",
+    "version": "1.0.0",
+    "description": "pulumi IaC tool",
+    "options": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
